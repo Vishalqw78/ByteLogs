@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ByteLogs - The Blogging App
 
-## Getting Started
+ByteLogs is a web application built with NEXT.js, MongoDB, Prisma, Next-Auth, and Firebase. It serves as a platform for creating and sharing blogs, enriched with the capability to store images using Firebase.
 
-First, run the development server:
+> [!NOTE]
+> Making a custom editor using TipTap which is built on top of a stable API called ProseMirror.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **User Authentication**: ByteLogs implements authentication using Next-Auth, providing users with secure access to the platform.
+    
+- **Blog Creation and Management**: Users can create, edit, and delete their blogs, offering a seamless content management experience.
+    
+- **Image Storage**: The application leverages Firebase for image storage, allowing users to upload images to enhance their blog posts.
+    
+- **Responsive Design**: ByteLogs is designed to be responsive, ensuring a consistent user experience across different devices and screen sizes.
+    
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **NEXT.js**: A React framework for building server-rendered and statically-generated web applications.
+    
+- **MongoDB**: A NoSQL database for storing application data, providing flexibility and scalability.
+    
+- **Prisma**: An ORM (Object-Relational Mapping) tool for Node.js and TypeScript, simplifying database access and management.
+    
+- **Next-Auth**: A complete authentication solution for Next.js applications, supporting various authentication providers and strategies.
+    
+- **Firebase**: A cloud platform offering various services, including image storage, authentication, and more.
